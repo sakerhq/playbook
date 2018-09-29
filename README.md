@@ -32,6 +32,7 @@
 	- [Rails Pull Request Template](https://github.com/sakerhq/playbook/blob/master/snippets/rails-pull-request-template.md)
 	- [Rubocop](https://github.com/sakerhq/playbook/blob/master/snippets/rubocop.md)
 - [Workflows](https://github.com/sakerhq/playbook/blob/master/workflows)
+	- [Code Review](https://github.com/sakerhq/playbook/blob/master/workflows/code-review.md)
 	- [Deployment](https://github.com/sakerhq/playbook/blob/master/workflows/deployment.md)
 	- [FDD Workflow](https://github.com/sakerhq/playbook/blob/master/workflows/fdd-workflow.md)
 	- [Git Workflow](https://github.com/sakerhq/playbook/blob/master/workflows/git-workflow.md)
