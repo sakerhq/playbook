@@ -30,6 +30,7 @@ config/paperclip.yml
 /pdfs/*.pdf
 
 # Rails/Ruby
+.rspec
 /rubocops/
 .ruby-gemset
 .ruby-version

@@ -1,6 +1,6 @@
 # Vocabulary
 
-Bitscape terminology  
+Saker terminology  
 
 ### 1. Compositions
 
