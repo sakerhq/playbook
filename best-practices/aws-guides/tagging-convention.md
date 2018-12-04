@@ -9,7 +9,7 @@ Implement automated tools to help manage resource tags. - The Resource Groups Ta
 - Remember that it is easy to modify tags to accommodate changing business requirements, however consider the ramifications of future changes, especially in relation to tag-based access control, automation, or upstream billing reports.
 
 ## Tagging Naming Conventions
-Due to the 10 tag per-resource limit, a best practice is to combine several of the tag keys and values into compound tags. For example, instead of creating 3 keys called “OwnerName”, “OwnerPhone”, and “OwnerEmail,” the 3 keys could be combined into 1 key called “OwnerContact,” which could contain the compound values of Name, Phone, and Email address using a pipe delimiter (e.g. John Doe|1-555-1212|jdoe@org.com).
+A best practice is to combine several of the tag keys and values into compound tags. For example, instead of creating 3 keys called “OwnerName”, “OwnerPhone”, and “OwnerEmail,” the 3 keys could be combined into 1 key called “OwnerContact,” which could contain the compound values of Name, Phone, and Email address using a pipe delimiter (e.g. John Doe|1-555-1212|jdoe@org.com).
 
 ### Style Rules
 - Tag key names are case-sensitive and can contain mixed-case letters, numbers, underscores, and hyphens.
@@ -24,15 +24,17 @@ Due to the 10 tag per-resource limit, a best practice is to combine several of t
 - Owner
 - Environment
 - Version
+- Billing
 
 These are the primary keys, but other keys can also be added as needed such as Compliance, Sensitivity, Client, Audited, or Application Role. 
 
 ## Example 
-- Name: FlycatcherProdBastion
+- Name: Flycatcher-Prod-Bastion
 - Application: Flycatcher
 - Owner: Steven Comyn
 - Environment: Production
 - Version: v1.2.3
+- Billing: CA0003
 
 ## Useful Links
 - [AWS Tagging Strategies](https://aws.amazon.com/answers/account-management/aws-tagging-strategies/)
