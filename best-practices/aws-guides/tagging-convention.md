@@ -29,7 +29,7 @@ A best practice is to combine several of the tag keys and values into compound t
 These are the primary keys, but other keys can also be added as needed such as Compliance, Sensitivity, Client, Audited, or Application Role. 
 
 ## Example 
-- Name: Flycatcher-Prod-Bastion
+- Name: flycatcher-prod-Bastion
 - Application: Flycatcher
 - Owner: Steven Comyn
 - Environment: Production
