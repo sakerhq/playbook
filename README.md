@@ -1,6 +1,7 @@
 ## Navigation
 - [Best Practices](https://github.com/sakerhq/playbook/tree/master/best-practices)
 	- [AWS Guides](https://github.com/sakerhq/playbook/tree/master/best-practices/aws-guides)
+		- [Tagging Convention](https://github.com/sakerhq/playbook/blob/master/best-practices/aws-guides/tagging-convention.md)
 	- [Development Guides](https://github.com/sakerhq/playbook/tree/master/best-practices/development-guides)
 		- [CSS](https://github.com/sakerhq/playbook/tree/master/best-practices/development-guides/css)
 		- [HTML](https://github.com/sakerhq/playbook/tree/master/best-practices/development-guides/html)
