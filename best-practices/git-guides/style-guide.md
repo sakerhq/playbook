@@ -10,7 +10,7 @@ Focus on Feature Development
 
 ## Branches
 
-There's only one rule: anything in the master branch is always deployable.
+The `master` branch always stands as a branch that is production ready. Do not provision a `master` branch during initial stages of development.
 
 Base
 
@@ -21,29 +21,20 @@ Base
 Naming
 
 * Feature branch: `feat-*`
+* Refactor branch: `refactor-*`
 * Bug fix branch: `bug-(ticket #)`
-
-Notes 
-
-* Use dashes to separate parts
-* Do not use bare numbers
-* Avoid long descriptive names
 
 Examples
 
-* `feat-coursework`
-* `feat-oauth`
-* `bug-1234`
+* `feat-auth`
+* `refactor-auth`
+* `bug-42`
 
 ## Commits
-
-* Commit early and often 
+ 
 * Keep the messages short (30 character soft-limit)
-* Prefix all commits with `add, update, remove, fix, refactor`
+* Prefix all commit messages with `add, update, remove, fix, refactor`
 * Keep your branch up-to-date `git pull --rebase origin dev`
-* Only push feature branch
-* `feature` branch off `dev` only
-* `bug` branch off `master`
 
 ##### Autosquash Commits 
 1. `git commit --fixup <commit>`
@@ -52,7 +43,7 @@ Examples
 
 ## Pull Requests
 
-After you clean & push your feature branch create a Pull Request (PR) and make sure to include a meaningful message about what you did. `feature` branches merge to `dev` and `bug` branches merge to `master`. `dev` merges into `stage `. Once `stage` passes acceptance merge it into `master`. All merges occure in the form of PR.  
+After you clean & push your feature branch create a Pull Request (PR) and make sure to include a meaningful message about what you did. `feature` branches merge to `dev` and `bug` branches merge to `master`. `dev` merges into `stage`. Once `stage` passes acceptance merge it into `master`. All merges must occur in the form of PR.  
 
 [PR Message Template]()
   
@@ -61,6 +52,6 @@ After you clean & push your feature branch create a Pull Request (PR) and make s
 Code reviews should:
 
 * Verify code is an effective solution
-* Ensure code is maintainable/documented
+* Ensure code is maintainable/documented and follows basic architectural principles
 * Provide constructive feedback
 * Not be onerous

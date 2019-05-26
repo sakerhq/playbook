@@ -12,7 +12,7 @@
 
 	`$ git pull origin <destination_branch>`
 
-5. Resolve the conflic
+5. Resolve the conflict
 6. Add and commit the change.
 	
 	`$ git add <filename>` 
